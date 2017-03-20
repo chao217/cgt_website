@@ -18,7 +18,6 @@
   <!-- Icons -->
   <link rel="stylesheet" href="css/font-awesome.min.css">
 
-
   <!-- Custom Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400" rel="stylesheet">
 
@@ -26,8 +25,8 @@
   <link rel="stylesheet" href="css/cgt_main.css">
   
   <style>
-    
   </style>
+
 </head>
 
 <body>
@@ -38,9 +37,11 @@
         <button id="navbar-toggle-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
+          <span class="icon-bar"></span>                
         </button>
-        <a href="index.html" class="navbar-brand" style="padding-top:1px; background-color:rgba(255,255,255,0);"><img alt="CGT_logo" src="./images/rect4593.png" height="48"></a>
+        <a href="index.html" id="logo_link">
+          <img alt="CGT_logo" src="./images/logo.png" height="48">
+        </a>
       </div>
       <div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -54,12 +55,12 @@
       </div>
     </div>
   </nav>
+
   <div id="home">
 
-    <div class="fixed-bg" style="background-image:url('./images/bg01.jpg');">
+    <div class="fixed-bg" id="fixed-bg-1">
       <div class="bg-cover">
         <div id="title-caption" class="col-sm-9 col-md-7 col-lg-6">
-
           <div id="title">
             <h3>The most important things are not things</h3>
             <h3>So we design experiences</h3>
@@ -68,7 +69,6 @@
               <a href="#about" class="btn nav-btn">Learn more</a>
               <a href="#contact" class="btn nav-btn">Contact us</a>
             </div>
-            <!--<br>-->
           </div>
 
         </div>
@@ -106,99 +106,95 @@
           </div>
         </div>
 
-        <div class="col-sm-4"><div class="figure-container">
-          <figure>
-            <img src="images/service_mobile.png" alt="mobile img">
-            <figcaption>
-              <p>Mobile App Design</p>
-            </figcaption>
-          </figure>
+        <div class="col-sm-4">
+          <div class="figure-container">
+            <figure>
+              <img src="images/service_mobile.png" alt="mobile img">
+              <figcaption>
+                <p>Mobile App Design</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="figure-container">
+            <figure>
+              <img src="images/service_app.png" alt="app img">
+              <figcaption>
+                <p>Application Maintenance</p>
+              </figcaption>
+            </figure>
+          </div>
         </div>
       </div>
 
-      <div class="col-sm-4"><div class="figure-container">
-        <figure>
-          <img src="images/service_app.png" alt="app img">
-          <figcaption>
-            <p>Application Maintenance</p>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-
-      </div>
       <div class="center">
-        <p>CGT offers Application Development and Maintenance with a full scope of services — all the way from inception, analysis and design, development, implementation, management and maintenance. We also help organizations make better use of their existing
-          IT applications through maintainability analysis, responsive services, and application enhancement. </p>
-        </div>
+        <p>CGT offers Application Development and Maintenance with a full scope of services — all the way from inception, analysis and design, development, implementation, management and maintenance. We also help organizations make better use of their existing IT applications through maintainability analysis, responsive services, and application enhancement. </p>
       </div>
     </div>
+  </div>
 
-    <div class="fixed-bg" style="background-image:url('./images/bg02.jpg');">
-      <div class="bg-cover">
-        <div class="bg-capiton">
+  <div class="fixed-bg" id="fixed-bg-2">
+    <div class="bg-cover">
 
+    </div>
+  </div>
+
+  <div id="contact" class="container-fluid">
+    <div class="container">
+      <h1>Contact us</h1>
+      <div class="center">
+        <div class="icon-row">
+          <div class="icon-box col-sm-2">
+            <i class="fa fa-envelope"></i>
+          </div>
+          <div class="col-sm-10">
+            <span class="icon-text">Mail: <a href="mailto:info@cgtinc.ca">info@cgtinc.ca</a></span>
+          </div>
         </div>
+
+        <div class="icon-row">
+          <div class="icon-box col-sm-2">
+            <i class="fa fa-phone"></i>
+          </div>
+          <div class="col-sm-10">
+            <span class="icon-text">Phone: 226-600-4012</span>
+          </div>
+        </div>
+
+        <div class="icon-row">
+          <div class="icon-box col-sm-2">
+            <i class="fa fa-address-card"></i>
+          </div>
+          <div class="col-sm-10">
+            <span class="icon-text">Address: 169 Cedarbrae Ave Waterloo, ON    N2L 4S1</span>
+          </div>
+        </div>
+
       </div>
     </div>
+  </div>
 
-    <div id="contact" class="container-fluid">
-      <div class="container">
-        <h1>Contact us</h1>
-        <div class="center">
-          <div class="icon-row">
-            <div class="icon-box col-sm-2">
-              <i class="fa fa-envelope"></i>
-            </div>
-            <div class="col-sm-10">
-              <span class="icon-text">Mail: <a href="mailto:info@cgtinc.ca">info@cgtinc.ca</a></span>
-            </div>
+  <div id="google-map"></div>
+
+  <!--footer-->
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footer-heading">
+            <h3><span>Chaudhry Group of Technologies</span></h3>
+            <p><i class="fa fa-envelope"></i>&nbsp; info@cgtinc.ca</p>
+            <p><i class="fa fa-phone"></i> &nbsp; 226-600-4012</p>
+            <p><i class="fa fa-address-card"></i>&nbsp;169 Cedarbrae Ave Waterloo, ON &nbsp; N2L 4S1</p>
           </div>
-
-          <div class="icon-row">
-            <div class="icon-box col-sm-2">
-              <i class="fa fa-phone"></i>
-            </div>
-            <div class="col-sm-10">
-              <span class="icon-text">Phone: 226-600-4012</span>
-            </div>
-          </div>
-
-          <div class="icon-row">
-            <div class="icon-box col-sm-2">
-              <i class="fa fa-address-card"></i>
-            </div>
-            <div class="col-sm-10">
-              <span class="icon-text">Address: 169 Cedarbrae Ave Waterloo, ON    N2L 4S1</span>
-            </div>
-          </div>
-
         </div>
       </div>
+      <div id="copyright">Copyright © 2017 Chaudhry Group of Technologies. All rights reserved.</div>
     </div>
+  </div>
 
-    <div id="google-map" data-latitude="43.4898383" data-longitude="-80.5470461" style="width:100%;height:300px;"></div>
-
-    <!--footer-->
-    <div id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="footer-heading">
-              <h3><span>Chaudhry Group of Technologies</span></h3>
-              <p><i class="fa fa-envelope"></i>&nbsp; info@cgtinc.ca</p>
-              <p><i class="fa fa-phone"></i> &nbsp; 226-600-4012</p>
-              <p><i class="fa fa-address-card"></i>&nbsp;169 Cedarbrae Ave Waterloo, ON &nbsp; N2L 4S1</p>
-            </div>
-          </div>
-
-
-
-        </div>
-        <div id="copyright">Copyright © 2017 Chaudhry Group of Technologies. All rights reserved.</div>
-      </div>
-    </div>
-  
 </body>
 
 </html>

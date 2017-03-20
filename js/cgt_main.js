@@ -1,7 +1,7 @@
 /* global $, google */
 $(document).ready(function() {
 
-  
+
   // Add scrollspy to <body>
   $("body").scrollspy({
     target: ".navbar",
@@ -49,8 +49,8 @@ $(document).ready(function() {
   }
 
   // Google Maps
-  var get_latitude = $("#google-map").data("latitude");
-  var get_longitude = $("#google-map").data("longitude");
+  var get_latitude = 43.4898383;
+  var get_longitude = -80.5470461;
 
   var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);
   var mapOptions = {
@@ -165,9 +165,8 @@ $(document).ready(function() {
 
   var w = $("#title-caption").css("width");
   $("#title").css("opacity",0);
-    $("#title-caption").css("left", "-" + w).animate({left: 0}, 2000, function(){
-      $("#title").animate({opacity: 1}, 1000);
-    });
+  $("#title-caption").css("left", "-" + w).animate({left: 0}, 2000, function(){
+    $("#title").animate({opacity: 1}, 1000);
+  });
   
-
 });
